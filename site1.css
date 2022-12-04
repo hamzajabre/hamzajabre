@@ -1,0 +1,41 @@
+@media screen and (min-width:320px) and (max-width:480px){
+                                    
+h1 {color:red;
+    text-align: center;
+}
+
+ body {
+    max-width:  480px;
+   
+
+    }
+    
+    
+
+.banniere {
+    margin: 0;
+    display:flex;
+
+}
+
+textarea {
+    
+    float: left;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+}
+
+
+
+
+
+
+
+
+    
+
+    

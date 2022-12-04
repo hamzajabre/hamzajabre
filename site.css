@@ -1,0 +1,63 @@
+.banniere{
+    width: 800px;
+    height: 200px;
+    max-width: 100%;
+
+}
+.image {
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: #8D99AE 2px solid;
+}
+h1 {
+    text-align: center;
+    color: #EF233C;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+.url {
+    
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+body {
+    background-image: radial-gradient( #CCDAE0, #EDF2F4);
+    position: relative;
+}
+header {
+    justify-content: center;
+}
+h3 {
+    color: #2B2D42;
+    font-weight: bold;
+    text-decoration: underline dotted;
+
+}
+article {
+    border: black 1px solid;
+}
+
+footer > ul {
+            text-align: right;
+            list-style: none;
+            margin: 0;
+}
+:visited {
+        color: grey;
+}
+:hover {
+   color: #2B2D42;
+}
+:link {
+    color: red;
+}
+input{
+    margin: auto;
+    
+}

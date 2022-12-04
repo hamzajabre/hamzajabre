@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" media="screen" href="site1.css" />
+    
+</head>
+<body>
+    <header>
+        <div class="banniere"><img src="banniere.jpg" width="800" height="200"></div>
+        <h1>Bienvenue sur mon site</h1>
+        <nav>
+            <ul>
+             <div class="url">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="rien">Galerie</a></li>
+                <li><a href="contact.html">contact</a></li>
+             </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form method="POST"action="monProgramme.php">
+         <fieldset>
+                <legend>Information</legend>
+            <div>
+                <label for="nom" >Nom:</label>
+                <input type="text" name="nom" placeholder="Entrez un nom" minlength="2" maxlength="20"id="nom"/>
+            </div>
+            <div>
+                <label for="email" >E-mail:</label>
+                <input type="email" name="email" placeholder="email" id="email"/>
+            </div>
+            <div>
+                <label for="commentaire">Commentaire</label><br>
+                <textarea placeholder="laisser un commentaire" rows="10" cols="70"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox" checked/>
+                <label for="checkbox">ne fonctionne pas</label>
+            </div>
+            <div>
+                <input type="submit" value="Executer"/>
+                <input type="reset" value="reinitialiser"/>
+            </div>
+          </fieldset>
+         
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="page1">page1</a></li>
+            <li><a href="page2">page2</a></li>
+            <li><a href="page3">page3</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
